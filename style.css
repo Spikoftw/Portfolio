@@ -235,8 +235,9 @@ ul li a {
 }
 
 footer {
-  margin: auto;
-  position: absolute;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  /* position: absolute; */
   bottom: 50px;
 }
 
@@ -299,6 +300,7 @@ footer p a {
     margin-top: 15px;
     margin-bottom: 15px;
     display: inline-block;
+    position: unset;
   }
 }
 
@@ -343,6 +345,7 @@ footer p a {
     margin-top: 15px;
     margin-bottom: 0;
     display: inline-block;
+    position: unset;
   }
 
   ul li {
