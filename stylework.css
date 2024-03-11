@@ -119,34 +119,6 @@
 }
 /* =================================== TEST animista end ========================*/
 
-/* ==================================== RESPONSIVE DESIGN ================================ */
-
-@media screen and (max-width: 1000px) {
-  section p {
-    max-width: 350px;
-  }
-  header img {
-    display: none;
-  }
-  article {
-    padding: 57px 1px 0px 37px;
-    max-width: 350px;
-  }
-  h2 {
-    margin: 0px 250px 50px 0;
-  }
-  body {
-    min-width: 450px;
-    height: initial;
-    justify-content: flex-start !important;
-  }
-  html {
-    height: inherit !important;
-  }
-}
-
-/*============================================FIN RESPONSIVE DESIGN =======================================*/
-
 body {
   background: url("images/purpleBkg.jpg") no-repeat center center fixed;
   background-size: 100%;
@@ -274,3 +246,131 @@ h2 {
   margin-bottom: 100px;
   margin-top: 100px;
 }
+
+/* ==================================== RESPONSIVE DESIGN ================================ */
+
+@media screen and (max-width: 1000px) {
+  section p {
+    max-width: 350px;
+  }
+  header img {
+    display: none;
+  }
+  article {
+    padding: 57px 1px 0px 37px;
+    max-width: 350px;
+  }
+  h2 {
+    margin: 0px 250px 50px 0;
+  }
+  body {
+    min-width: 450px;
+    height: initial;
+    justify-content: flex-start !important;
+  }
+  html {
+    height: inherit !important;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  body {
+    min-width: unset;
+  }
+
+  .fenetre {
+    margin-bottom: unset;
+    margin-top: unset;
+    margin: 10px;
+  }
+
+  header {
+    margin-bottom: 20px;
+  }
+
+  header img {
+    display: unset;
+    width: 100%;
+    height: unset;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    width: unset;
+  }
+
+  h2 {
+    margin: 0px 70px 35px 0px;
+  }
+
+  section {
+    padding: 0px 10px 32px 10px;
+  }
+
+  section p {
+    width: unset;
+    font-size: 0.8rem;
+  }
+
+  section a {
+    padding-bottom: unset;
+    padding-top: unset;
+  }
+
+  article {
+    padding: 0;
+    margin: 0;
+  }
+
+  .border-top-bottom {
+    width: unset;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
+  .vertical-line {
+    height: 30px;
+  }
+
+  .deuxiemebarreverticale {
+    height: 30px;
+  }
+
+  .logo {
+    height: 70px;
+  }
+
+  footer {
+    margin-top: 15px;
+    margin-bottom: 0;
+    display: inline-block;
+  }
+
+  ul li {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+
+  ul {
+    width: 50%;
+  }
+
+  ul li a {
+    font-size: 0.8rem;
+  }
+
+  .website-link {
+    margin-bottom: 20px;
+  }
+}
+
+/*============================================FIN RESPONSIVE DESIGN =======================================*/
