@@ -260,7 +260,7 @@ h2 {
     max-width: 370px;
   }
   h2 {
-    margin: 0px 250px 50px 0;
+    /* margin: 0px 250px 50px 0; */
   }
   body {
     min-width: 450px;
@@ -307,7 +307,7 @@ h2 {
   }
 
   h2 {
-    margin: 0px 70px 35px 0px;
+    margin: 0px 157px 35px 0px;
   }
 
   section {
