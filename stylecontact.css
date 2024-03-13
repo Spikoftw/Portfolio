@@ -226,81 +226,6 @@ h2 {
   letter-spacing: 0.5rem;
 }
 
-/* =================================== FORMULAIRE =======================================*/
-
-input,
-textarea {
-  background: transparent;
-}
-
-input {
-  width: 357px;
-  height: 50px;
-  border: 1px solid white;
-  border-radius: 5px;
-  color: white;
-  font-size: 25px;
-  font-family: "Source Sans Pro", sans-serif;
-}
-
-.formulaire {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  align-items: baseline;
-}
-
-.inputform {
-  display: flex;
-  justify-content: space-between;
-  width: 800px;
-  margin-bottom: 30px;
-}
-
-form > .fields > .field.half {
-  width: calc(50% - 0.75rem);
-}
-
-.champtexte {
-  display: flex;
-}
-
-textarea {
-  width: 800px;
-  height: 180px;
-  border: 1px solid white;
-  border-radius: 5px;
-  margin-bottom: 30px;
-  color: #ffffff;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
-  font-size: 25px;
-  line-height: 1.65;
-  padding-left: 20px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-label {
-  margin-bottom: 27px;
-}
-
-.envoyer {
-  color: black;
-  background-color: white;
-  margin-bottom: 30px;
-}
-
-.envoyer:hover {
-  cursor: pointer;
-}
-
 .svgicons {
   display: flex;
   justify-content: space-between;
@@ -312,15 +237,22 @@ label {
 /* ==================================== RESPONSIVE DESIGN ================================ */
 
 @media screen and (max-width: 1000px) {
+  .fenetre {
+    display: flex;
+    justify-content: center;
+  }
+
   section p {
     max-width: 350px;
+    letter-spacing: 0rem;
+    font-size: 1rem;
   }
   header img {
     display: none;
   }
   article {
     padding: 57px 1px 0px 37px;
-    max-width: 350px;
+    max-width: 367px;
   }
   h2 {
     margin: 0px 250px 50px 0;

@@ -142,6 +142,10 @@ body {
   backdrop-filter: blur(14px);
 }
 
+.fenetre {
+  height: 80%;
+}
+
 html {
   display: flex;
   justify-items: center;
@@ -239,7 +243,7 @@ h2 {
   }
   article {
     padding: 57px 1px 0px 37px;
-    max-width: 350px;
+    max-width: 367px;
   }
   h2 {
     margin: 0px 250px 50px 0;
@@ -264,6 +268,8 @@ h2 {
     margin-bottom: unset;
     margin-top: unset;
     margin: 10px;
+    display: flex;
+    justify-content: center;
   }
 
   header {
@@ -298,11 +304,13 @@ h2 {
     background-color: rgba(27, 31, 34, 0.85);
     border-radius: 7px;
     align-items: unset;
+    max-width: 335px;
   }
 
   section p {
     width: unset;
     font-size: 0.8rem;
+    max-width: 367px;
   }
 
   section a {
