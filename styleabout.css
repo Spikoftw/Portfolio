@@ -133,8 +133,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: auto;
-  margin-bottom: auto;
   margin-right: 0;
   margin-left: 0;
   width: 100%;
@@ -144,14 +142,6 @@ body {
 
 .fenetre {
   height: 80%;
-}
-
-html {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
 }
 
 article .imageettexte {
